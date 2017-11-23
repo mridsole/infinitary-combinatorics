@@ -16,7 +16,7 @@ This doesn't hold for the above example, because
 
 In mathematical terms again, if `order_preserving (×)` holds and the order type of `xs` and `ys` are both at most ω, then the order type of `xs × ys` is at most ω.
 
-This module contains combinatoric operations that each satisfy an analogous `order_preserving` property wherever possible. For example,
+This module contains combinatoric operations that each satisfy an analogous `order_preserving` property wherever possible. For example,  
 `["a","b"] × [1..] ≡ [("a",1),("a",2),("b",1),("a",3),("b",2),("a",4),("b",3),("a",5),...]`  
 `[1..] × [1..] ≡ [(1,1),(1,2),(2,1),(1,3),(2,2),(3,1),(1,4),(2,3),...]`  
 ``[0..] `pick` 3 ≡ [[0,0,0],[0,0,1],[1,0,0],[0,1,0],[1,0,1],[2,0,0],[0,0,2],[1,1,0],[2,0,1],...]``
